@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/action_export"
+        android:icon="@drawable/ic_export"
+        android:title="Export"
+        app:showAsAction="ifRoom"/>
+    
+    <item
+        android:id="@+id/action_time_range"
+        android:title="Time Range"
+        app:showAsAction="never">
+        
+        <menu>
+            <item
+                android:id="@+id/action_7_days"
+                android:title="Last 7 Days"/>
+            
+            <item
+                android:id="@+id/action_30_days"
+                android:title="Last 30 Days"/>
+            
+            <item
+                android:id="@+id/action_90_days"
+                android:title="Last 90 Days"/>
+        </menu>
+        
+    </item>
+</menu> 

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.ChipGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/daysChipGroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:singleSelection="false"
+    app:selectionRequired="true">
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/monday"
+        style="@style/Widget.Material3.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/tuesday"
+        style="@style/Widget.Material3.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuesday"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/wednesday"
+        style="@style/Widget.Material3.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wednesday"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/thursday"
+        style="@style/Widget.Material3.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thursday"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/friday"
+        style="@style/Widget.Material3.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friday"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/saturday"
+        style="@style/Widget.Material3.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saturday"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/sunday"
+        style="@style/Widget.Material3.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunday"/>
+
+</com.google.android.material.chip.ChipGroup> 

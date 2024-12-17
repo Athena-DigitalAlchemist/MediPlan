@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mediplan.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_add_medication"
+            app:destination="@id/addMedicationActivity" />
+        <action
+            android:id="@+id/action_home_to_edit_medication"
+            app:destination="@id/editMedicationFragment">
+            <argument
+                android:name="medicationId"
+                app:argType="long" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.mediplan.ui.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.example.mediplan.ui.statistics.StatisticsFragment"
+        android:label="@string/title_statistics"
+        tools:layout="@layout/fragment_statistics" />
+
+    <activity
+        android:id="@+id/addMedicationActivity"
+        android:name="com.example.mediplan.ui.AddMedicationActivity"
+        android:label="@string/add_medication"
+        tools:layout="@layout/activity_add_medication" />
+
+    <fragment
+        android:id="@+id/editMedicationFragment"
+        android:name="com.example.mediplan.ui.edit.EditMedicationFragment"
+        android:label="@string/edit_medication"
+        tools:layout="@layout/fragment_edit_medication">
+        <argument
+            android:name="medicationId"
+            app:argType="long" />
+    </fragment>
+
+</navigation> 

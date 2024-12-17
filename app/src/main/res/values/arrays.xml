@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder_times">
+        <item>5 λεπτά πριν</item>
+        <item>15 λεπτά πριν</item>
+        <item>30 λεπτά πριν</item>
+        <item>1 ώρα πριν</item>
+    </string-array>
+
+    <string-array name="reminder_times_values">
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="theme_entries">
+        <item>Σύστημα</item>
+        <item>Ανοιχτό</item>
+        <item>Σκοτεινό</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>system</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <string-array name="language_entries">
+        <item>Ελληνικά</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>el</item>
+        <item>en</item>
+    </string-array>
+</resources> 

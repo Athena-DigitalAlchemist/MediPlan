@@ -1,0 +1,56 @@
+Overall Design
+Color Palette: A calming blend of soft blues and greens to evoke a medical and health-oriented theme. Use white backgrounds to keep the interface clean, with accents of orange or teal for actionable elements like buttons.
+Typography: Legible sans-serif fonts like Open Sans or Roboto for clean and professional text. Use slightly larger fonts for headers and primary actions.
+Home Screen
+App Name and Icon:
+
+Display the app logo (a pill or calendar icon) prominently at the top.
+Use the app name "MediPlan" in bold, with a subtle tagline like "Your Medication Assistant".
+Medication Overview:
+
+Show a scrollable list of upcoming doses, including:
+Medication name (e.g., "Paracetamol").
+Time of next dose.
+Status indicators (e.g., overdue, upcoming, completed).
+Include an "Add Medication" button at the bottom of the list.
+Add Medication Screen
+Fields to Input Medication:
+Medication name (text field with suggestions from a predefined list of common drugs in Greece).
+Dosage (e.g., "500 mg" dropdown or text field).
+Frequency (e.g., once a day, twice a day, custom intervals with time pickers).
+Start and end dates (calendar date pickers).
+Optional notes (e.g., "Take after meals").
+Reminder time (allow multiple times if needed).
+Save Button:
+A large, prominent button labeled "Save Medication" to confirm the details.
+Schedule Screen
+Visual Daily Planner:
+
+A calendar or timeline view showing the day’s schedule of doses.
+Highlight missed doses with a red marker and upcoming ones with a green marker.
+Actionable Alerts:
+
+Snooze/Take Dose buttons for scheduled medications.
+A simple checkbox to mark medications as taken.
+Notification System
+When it’s time for a dose:
+Pop-Up Notification: Display a reminder with medication details (e.g., "Take 500 mg of Paracetamol").
+Include options like "Snooze", "Mark as Taken", or "Skip".
+Add vibration or sound cues (customizable in settings).
+Medication History Screen
+List of Past Medications:
+Show completed or discontinued medications with details like:
+Dates taken.
+Notes added by the user.
+Option to re-add medication to an active schedule.
+Settings Screen
+Customizable Options:
+Notification Settings:
+Set reminder tones, vibration, or silent mode.
+Backup & Restore:
+Save data locally or on Google Drive.
+Dark Mode Toggle: For nighttime use.
+Language Selection: Include Greek and English options.
+Additional Features
+Widgets:
+A quick-access home screen widget displaying upcoming doses.

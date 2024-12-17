@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Ειδοποιήσεις">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="notifications_enabled"
+            android:title="Ενεργοποίηση ειδοποιήσεων"
+            android:summary="Εμφάνιση ειδοποιήσεων για τη λήψη φαρμάκων" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:dependency="notifications_enabled"
+            android:key="notification_sound"
+            android:title="Ήχος ειδοποιήσεων" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:dependency="notifications_enabled"
+            android:key="notification_vibration"
+            android:title="Δόνηση" />
+
+        <ListPreference
+            android:defaultValue="15"
+            android:dependency="notifications_enabled"
+            android:entries="@array/reminder_times"
+            android:entryValues="@array/reminder_times_values"
+            android:key="reminder_time"
+            android:title="Χρόνος υπενθύμισης"
+            android:summary="Πόσα λεπτά πριν τη λήψη να εμφανίζεται η ειδοποίηση" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Εμφάνιση">
+        <ListPreference
+            android:defaultValue="system"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:key="theme"
+            android:title="Θέμα εφαρμογής"
+            android:summary="Επιλέξτε φωτεινό ή σκούρο θέμα" />
+
+        <ListPreference
+            android:defaultValue="el"
+            android:entries="@array/language_entries"
+            android:entryValues="@array/language_values"
+            android:key="language"
+            android:title="Γλώσσα"
+            android:summary="Επιλέξτε τη γλώσσα της εφαρμογής" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Συγχρονισμός">
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="google_calendar_sync"
+            android:title="Συγχρονισμός με Google Calendar"
+            android:summary="Προσθήκη υπενθυμίσεων στο Google Calendar" />
+    </PreferenceCategory>
+
+</PreferenceScreen> 

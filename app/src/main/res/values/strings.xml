@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MediPlan</string>
+    <string name="error_icon">⚠️</string>
+    <string name="retry">Δοκιμάστε ξανά</string>
+    
+    <!-- Navigation -->
+    <string name="title_home">Αρχική</string>
+    <string name="title_history">Ιστορικό</string>
+    <string name="title_statistics">Στατιστικά</string>
+    
+    <!-- Activities -->
+    <string name="add_medication">Προσθήκη Φαρμάκου</string>
+    <string name="edit_medication">Επεξεργασία Φαρμάκου</string>
+    <string name="delete_medication_title">Διαγραφή Φαρμάκου</string>
+    <string name="delete_medication_message">Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το φάρμακο;</string>
+    
+    <!-- Actions -->
+    <string name="save">Αποθήκευση</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="ok">OK</string>
+    <string name="confirm">Επιβεβαίωση</string>
+    <string name="search_medications">Αναζήτηση φαρμάκων…</string>
+    <string name="backup">Αντίγραφο ασφαλείας</string>
+    <string name="restore">Επαναφορά</string>
+    
+    <!-- Empty States -->
+    <string name="no_medications">Δεν υπάρχουν καταχωρημένα φάρμακα</string>
+    <string name="add_your_first_medication">Προσθέστε το πρώτο σας φάρμακο</string>
+    <string name="no_medications_found">Δεν βρέθηκαν φάρμακα που να ταιριάζουν με την αναζήτησή σας</string>
+    
+    <!-- Medication Details -->
+    <string name="medication_name">Όνομα Φαρμάκου</string>
+    <string name="medication_amount">Ποσότητα</string>
+    <string name="medication_unit">Μονάδα μέτρησης</string>
+    <string name="medication_time">Ώρα Λήψης</string>
+    <string name="medication_days">Ημέρες λήψης</string>
+    <string name="medication_notes">Σημειώσεις</string>
+    <string name="medication_dosage">Δοσολογία</string>
+    <string name="medication_frequency">Συχνότητα</string>
+    
+    <!-- Validation Errors -->
+    <string name="error_name_required">Το όνομα είναι υποχρεωτικό</string>
+    <string name="error_amount_required">Η ποσότητα είναι υποχρεωτική</string>
+    <string name="error_days_required">Επιλέξτε τουλάχιστον μία ημέρα</string>
+    <string name="error_loading">Σφάλμα κατά τη φόρτωση</string>
+    <string name="error_saving">Σφάλμα κατά την αποθήκευση</string>
+    <string name="error">Σφάλμα</string>
+    
+    <!-- Success Messages -->
+    <string name="success_saved">Το φάρμακο αποθηκεύτηκε επιτυχώς</string>
+    <string name="success_deleted">Το φάρμακο διαγράφηκε επιτυχώς</string>
+    <string name="medication_added">Το φάρμακο προστέθηκε</string>
+    <string name="medication_updated">Το φάρμακο ενημερώθηκε</string>
+    <string name="medication_deleted">Το φάρμακο διαγράφηκε</string>
+    
+    <!-- Backup -->
+    <string name="backup_success">Το αντίγραφο ασφαλείας δημιουργήθηκε επιτυχώς</string>
+    <string name="backup_error">Αποτυχία δημιουργίας αντιγράφου ασφαλείας</string>
+    <string name="restore_success">Η επαναφορά ολοκληρώθηκε επιτυχώς</string>
+    <string name="restore_error">Αποτυχία επαναφοράς αντιγράφου ασφαλείας</string>
+    
+    <!-- Statistics -->
+    <string name="stats_taken">Ελήφθησαν</string>
+    <string name="stats_missed">Χάθηκαν</string>
+    <string name="stats_skipped">Παραλείφθηκαν</string>
+</resources>
